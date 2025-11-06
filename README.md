@@ -33,5 +33,5 @@ To explore and implement core concepts in Artificial Intelligence and Machine Le
 ---
 
 ## 👩‍💻 Author
-**JAGATHESWARI V**  
+**JAGATHESWARI.V**  
 AI Intern | Enthusiastic Learner | Passionate about ML & Data Science
