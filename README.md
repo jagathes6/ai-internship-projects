@@ -1,37 +1,21 @@
-# AI Internship Projects
+# MNIST Handwritten Digit Classification
 
-This repository contains all tasks, assignments, and mini-projects completed during my AI Internship program.  
-Each notebook or project demonstrates different AI/ML concepts including Neural Networks, Deep Learning, and Data Preprocessing.
+This project builds a machine learning model to classify handwritten digits from the MNIST dataset. The objective is to train a simple model that can correctly identify digits from 0 to 9.
 
----
+## Steps
+1. Loaded the MNIST dataset and examined sample images.
+2. Normalized and reshaped the data for model training.
+3. Built a classification model using a neural network.
+4. Trained the model on the training set and evaluated accuracy.
+5. Tested the model on unseen images.
+6. Observed prediction performance and error cases.
 
-## 🧠 Contents
-- `MNIST_Classification.ipynb` – Handwritten digit classification using Keras and TensorFlow
-- (Add your future tasks here)
+## Key Insight
+The model achieves strong accuracy on handwritten digit recognition and demonstrates effective learning of digit patterns. Further improvements can be made using deeper neural networks or CNNs.
 
----
+## Files
+- `MNIST_Classification.ipynb` — Implementation notebook  
+- `readme.md`
 
-## 🚀 Technologies Used
-- Python  
-- TensorFlow / Keras  
-- NumPy & Pandas  
-- Matplotlib  
-- Google Colab  
-
----
-
-## 🧩 How to Run
-1. Open any `.ipynb` file in **Google Colab**.  
-2. Run all cells sequentially.  
-3. View output graphs and model results.
-
----
-
-## 📚 Purpose
-To explore and implement core concepts in Artificial Intelligence and Machine Learning through guided internship tasks.
-
----
-
-## 👩‍💻 Author
-**JAGATHESWARI.V**  
-AI Intern | Enthusiastic Learner | Passionate about ML & Data Science
+## Additional Note
+This project was uploaded manually using GitHub’s “Upload files” option for easier organization.
