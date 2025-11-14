@@ -1,20 +1,23 @@
 # Mall Customer Segmentation using K-Means
 
-This mini-project applies **K-Means clustering** to group mall customers based on **Annual Income** and **Spending Score**. The dataset is preprocessed, scaled, and visualized to understand different customer types.
+This project performs customer segmentation on the Mall Customers Dataset using the K-Means clustering algorithm. The goal is to identify different customer groups based on Annual Income and Spending Score.
 
-### ✔️ What I Did
-- Loaded and cleaned the dataset  
-- Used **Elbow Method** to find best K  
-- Applied **K-Means (K = 5)**  
-- Visualized clusters with centroids  
+## Steps
+1. Loaded and inspected the dataset.
+2. Selected relevant features and standardized them.
+3. Used the Elbow Method to determine the optimal number of clusters.
+4. Applied K-Means clustering with the chosen K value.
+5. Visualized the clusters and centroids.
+6. Exported the dataset with cluster labels.
 
-### ✔️ Key Insight
-Customers clearly form 5 groups such as high-income low-spenders, low-income low-spenders, and high-income high-spenders — useful for targeted marketing.
+## Key Insight
+The dataset forms approximately five meaningful customer groups, such as high-income low-spending customers, high-income high-spending customers, and low-income low-spending customers. These clusters can support marketing and business decisions.
 
-### 📁 Files
-- `Mall_Customer_KMeans.ipynb`  
-- Clustered dataset output  
+## Files
+- `Mall_Customer_KMeans.ipynb` — Implementation notebook  
+- `mall_customers_with_clusters.csv` — Data with assigned cluster labels  
+- `readme.md`
 
-### 👤 Author
-**Jagatheswarivelmurugan**  
-IT Student | Learning Data & ML Concepts
+## Additional Note
+This project was uploaded manually using GitHub’s “Upload files” option within the repository.
+
